@@ -64,8 +64,7 @@ console.log(list);
    + ```fnGetter(iter, value,index)```
    + Optional, if not given, will use bracket syntaxe: ```iter[index] = value```
 
-+ ```fnCompare```	
- + ```fnCompare(elem1, elem2)```: function for comparing two elem of iterable
++ ```fnCompare(elem1, elem2)```: function for comparing two elem of iterable
    + Optional, if not given, will use : ```elem1 - elem2```
    
 
