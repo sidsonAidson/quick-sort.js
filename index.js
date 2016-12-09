@@ -1,6 +1,6 @@
 var QSort = function(iterable, length, fnGetter, fnSetter, fnCompare){
     length = Number(length) || 0;
-    length = length <= 0 ? 0 : 0;
+    length = length <= 0 ? 0 : length;
     if(length == 0)
         console.warn('0 passed as length');
     var comparator = function(left, rigth) {
