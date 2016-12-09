@@ -13,6 +13,8 @@ npm install quick-sort.js
 
 ###Usage
 
+###Full example
+
 ```
 var QSort = require('quick-sort.js');
 
@@ -37,6 +39,19 @@ QSort(list, list.length, getter, setter, comparator);//desc sort
 console.log(list);
 ```
 
+####Simple example
+``` javascript
+var QSort = require('quick-sort.js');
+var list = [1,4,2,3,7,9,3,6,7,9,10,11,12,13,14,15,16,17,18,19,20];
+
+console.log(list);
+
+QSort(list, list.length);//desc sort
+
+console.log(list);
+
+```
+
 ##API
 
 ####QSort(iterable, length, [[[fnGetter], [fnSetter]], [fnCompare]])
@@ -52,3 +67,5 @@ console.log(list);
 + ```fnCompare```	
  + ```fnCompare(elem1, elem2)```: function for comparing two elem of iterable
    + Optional, if not given, will use : ```elem1 - elem2```
+   
+
