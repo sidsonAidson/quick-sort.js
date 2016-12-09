@@ -1,0 +1,31 @@
+{
+  "name": "quick-sort.js",
+  "version": "1.0.0",
+  "description": "Generic quick sort implementation for js",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "list",
+    "linked list",
+    "data structure",
+    "Array",
+    "Sort"
+  ],
+  "author": "Moussa Ndour <moussa_ndour@hotmail.fr>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsonAidson/quick-sort.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sidsonAidson/quick-sort.js/issues"
+  },
+  "homepage": "https://github.com/sidsonAidson/quick-sort.js#readme"
+}
