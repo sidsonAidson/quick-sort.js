@@ -15,7 +15,7 @@ npm install quick-sort.js
 
 ###Full example
 
-```
+``` javascript
 var QSort = require('quick-sort.js');
 
 var getter = function(iterable, index) {
